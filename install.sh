@@ -17,7 +17,7 @@ sudo chown -R root:root /etc/skel
 
 sudo groupadd web
 
-sudo apt-get remove vim
+sudo apt-get remove -y vim
 sudo apt-get install -y build-essential git cmake python3-dev python3-pip python3-virtualenv python3-numpy python3-matplotlib libpcap-dev libnet1-dev rpcbind openssh-server nmap python3-pip vim-nox htop
 sudo pip3 install flake8
 
