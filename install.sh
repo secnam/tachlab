@@ -1,9 +1,9 @@
 #!/bin/bash
 
 sudo apt-get update
-sudo apt-get upgrade
-sudo apt-get dist-upgrade
-sudo apt-get autoremove
+sudo apt-get -y upgrade
+sudo apt-get -y dist-upgrade
+sudo apt-get -y autoremove
 
 sudo cp dhclient.conf /etc/dhcp
 sudo chown root:root /etc/dhcp/dhclient.conf
