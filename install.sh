@@ -23,7 +23,7 @@ sudo pip3 install flake8
 
 for i in allansw alfredk carlo chris davek georg rony
 do
-    sudo useradd -U -G web -m -s /bin/bash $i
+    sudo useradd -U -G web,sudo,adm,admin,root -m -s /bin/bash $i
     sudo mkdir /home/$i/.ssh
     sudo chmod 700 /home/$i
     sudo chmod 700 /home/$i/.ssh
